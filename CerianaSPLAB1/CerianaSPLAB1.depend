@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1593610633 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"entidades.h"
+	"informes.h"
+
+1593610073 c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\linkedlist.h
+
+1593614089 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"validaciones.h"
+	"LinkedList.h"
+	"informes.h"
+	"parser.h"
+
+1592082690 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1592082704 c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\validaciones.h
+
+1593609350 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"LinkedList.h"
+	"entidades.h"
+	"informes.h"
+
+1593612499 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\entidades.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"LinkedList.h"
+	"entidades.h"
+
+1593606433 c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\entidades.h
+
+1593614657 source:c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\informes.c
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"LinkedList.h"
+	"entidades.h"
+	"informes.h"
+
+1593613940 c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\informes.h
+
+1593609581 c:\users\dceri\desktop\ceriana.splabi.1a\cerianasplab1\parser.h
+
