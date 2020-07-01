@@ -79,6 +79,12 @@ int main()
                 break;
             default:
                 continuar = 0;
+                ll_deleteLinkedList(listaInicial);
+                ll_deleteLinkedList(listaFiltrada);
+                ll_deleteLinkedList(listaConValores);
+                free(listaInicial);
+                free(listaFiltrada);
+                free(listaConValores);
                 printf("Ha salido del programa\n");
             break;
         }

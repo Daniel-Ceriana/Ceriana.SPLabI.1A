@@ -51,6 +51,6 @@ int parser_EntidadFromText(char* path, LinkedList* pArrayList)
     }
 
 
-
+    fclose(pFile);
     return retorno;
 }

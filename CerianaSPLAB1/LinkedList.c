@@ -577,6 +577,13 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 
 
 
+/** \brief Filtra la lista con los parametros dados
+ *
+ * \param this LinkedList* de donde se hara el filtro
+ * \param (*pFunc) (void* element) int funcion necesaria para filtrar
+ * \return retorna un LinkedList con los datos filtrados
+ *
+ */
 
 
 LinkedList* ll_filter (LinkedList* this, int (*pFunc) (void* element))
@@ -605,6 +612,13 @@ LinkedList* ll_filter (LinkedList* this, int (*pFunc) (void* element))
 
 return listaFiltrada;
 }
+/** \brief Crea una nueva lista en la que se le asignaran datos
+ *
+ * \param this LinkedList* de donde se agregaran los datos
+ * \param (*pFunc) (void* element) void*
+ * \return retorna un LinkedList nuevo con los datos asignados
+ *
+ */
 
 LinkedList* ll_map (LinkedList* this, void*(*pFunc) (void* element))
 {
